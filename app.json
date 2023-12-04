@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "TodoList",
+    "name": "Clear Quest",
     "slug": "TodoList",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/advice.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash-custom.png",
+      "image": "./assets/splash-custom1.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/advice.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.putriz.TodoList"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f9d5b062-01a3-4304-9d36-4130dabf28b3"
+      }
     }
   }
 }
